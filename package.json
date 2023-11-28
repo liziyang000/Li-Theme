@@ -1,21 +1,26 @@
 {
-  "name": "li-theme",
-  "displayName": "Li-Theme",
-  "description": "A dark theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.84.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Li",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Li-color-theme.json"
-      }
-    ]
-  }
+	"name": "li-theme",
+	"displayName": "Li-Theme",
+	"description": "A dark theme.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.84.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Li-Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Li-color-theme.json"
+			},
+			{
+				"label": "Li-Light",
+				"uiTheme": "vs",
+				"path": "./themes/Li-color-theme.json"
+			}
+		]
+	}
 }
