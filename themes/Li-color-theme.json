@@ -2,21 +2,15 @@
 	"name": "Li",
 	/* 编辑器的颜色 */
 	"colors": {
-		// "editor.findRangeHighlightBackground": "#ff0000", // 必须透明
-		// "editor.hoverHighlightBackground": "#ff0000",
-		// "editor.inactiveSelectionBackground": "#ff000040", // 非活动编辑器选中内容的背景颜色
-		// "editor.inlineValuesBackground": "#ff0000",
-		// "editor.inlineValuesForeground": "#ff0000",
-		// "editor.linkedEditingBackground": "#ff0000",
-		// "editor.rangeHighlightBackground": "#ff0000",
-		// "editor.findRangeHighlightBorder": "#ff0000", // 必须透明
-		// "editor.focusedStackFrameHighlightBackground": "#ff0000",
-		// "editor.foldBackground": "#ff0000",
-		// "editor.inlineValuesBackground": "#ff0000",
-		// "editor.inlineValuesForeground": "#ff0000",
-		// "editor.linkedEditingBackground": "#ff0000",
-		// "editor.hoverHighlightBackground": "#ff0000",
-		// "editor.rangeHighlightBackground": "#ff0000",
+		"editor.findRangeHighlightBackground": "#FFFFFF40", // 查找范围高亮背景色
+		"editor.findRangeHighlightBorder": "#FFFFFF00", // 查找范围高亮边框色
+		"editor.hoverHighlightBackground": "#FFFFFF30", // 鼠标悬停高亮背景色
+		"editor.inactiveSelectionBackground": "#77889940", // 非活动编辑器选中内容的背景颜色
+		"editor.inlineValuesBackground": "#ff0000",
+		"editor.inlineValuesForeground": "#ff0000",
+		"editor.linkedEditingBackground": "#ff0000",
+		"editor.rangeHighlightBackground": "#ff0000",
+		"editor.focusedStackFrameHighlightBackground": "#ff0000",
 
 		// "debugConsole.errorForeground": "#ff0000",
 		// "debugConsole.infoForeground": "#ff0000",
@@ -72,10 +66,7 @@
 		// "contrastBorder": "#ff0000",
 
 		// "disabledForeground": "#ff0000",
-		// "dropdown.background": "#ff0000",
-		// "dropdown.border": "#ff0000",
-		// "dropdown.foreground": "#ff0000",
-		// "dropdown.listBackground": "#ff0000",
+
 		// "editor.rangeHighlightBorder": "#ff0000",
 		// "editor.snippetFinalTabstopHighlightBackground": "#ff0000",
 		// "editor.snippetFinalTabstopHighlightBorder": "#ff0000",
@@ -271,7 +262,6 @@
 		// "extensionIcon.sponsorForeground": "#ff0000",
 		// "extensionIcon.starForeground": "#ff0000",
 		// "extensionIcon.verifiedForeground": "#ff0000",
-		// "focusBorder": "#ff0000",
 		// "gitDecoration.addedResourceForeground": "#ff0000",
 		// "gitDecoration.conflictingResourceForeground": "#ff0000",
 		// "gitDecoration.deletedResourceForeground": "#ff0000",
@@ -355,23 +345,7 @@
 		// "inlineChatInput.border": "#ff0000",
 		// "inlineChatInput.focusBorder": "#ff0000",
 		// "inlineChatInput.placeholderForeground": "#ff0000",
-		// "input.background": "#ff0000",
-		// "input.border": "#ff0000",
-		// "input.foreground": "#ff0000",
-		// "input.placeholderForeground": "#ff0000",
-		// "inputOption.activeBackground": "#ff0000",
-		// "inputOption.activeBorder": "#ff0000",
-		// "inputOption.activeForeground": "#ff0000",
-		// "inputOption.hoverBackground": "#ff0000",
-		// "inputValidation.errorBackground": "#ff0000",
-		// "inputValidation.errorBorder": "#ff0000",
-		// "inputValidation.errorForeground": "#ff0000",
-		// "inputValidation.infoBackground": "#ff0000",
-		// "inputValidation.infoBorder": "#ff0000",
-		// "inputValidation.infoForeground": "#ff0000",
-		// "inputValidation.warningBackground": "#ff0000",
-		// "inputValidation.warningBorder": "#ff0000",
-		// "inputValidation.warningForeground": "#ff0000",
+
 		// "interactive.activeCodeBorder": "#ff0000",
 		// "interactive.inactiveCodeBorder": "#ff0000",
 		// "keybindingLabel.background": "#ff0000",
@@ -521,7 +495,7 @@
 		// "problemsWarningIcon.foreground": "#ff0000",
 		// "profileBadge.background": "#ff0000",
 		// "profileBadge.foreground": "#ff0000",
-		// "progressBar.background": "#ff0000",
+
 		// "quickInput.background": "#ff0000",
 		// "quickInput.foreground": "#ff0000",
 		// "quickInputList.focusBackground": "#ff0000",
@@ -529,10 +503,7 @@
 		// "quickInputList.focusIconForeground": "#ff0000",
 		// "quickInputTitle.background": "#ff0000",
 		// "sash.hoverBorder": "#ff0000",
-		// "scrollbar.shadow": "#ff0000",
-		// "scrollbarSlider.activeBackground": "#ff0000",
-		// "scrollbarSlider.background": "#ff0000",
-		// "scrollbarSlider.hoverBackground": "#ff0000",
+
 		// "search.resultsInfoForeground": "#ff0000",
 		// "searchEditor.findMatchBackground": "#ff0000",
 		// "searchEditor.findMatchBorder": "#ff0000",
@@ -720,19 +691,35 @@
 		// "textPreformat.foreground": "#ff0000",
 		// "textSeparator.foreground": "#ff0000",
 
-		// "toolbar.activeBackground": "#ff0000",
-		// "toolbar.hoverBackground": "#ff0000",
-		// "toolbar.hoverOutline": "#ff0000",
 		// "walkThrough.embeddedEditorBackground": "#ff0000",
 		// "walkthrough.stepTitle.foreground": "#ff0000",
 		// "tree.inactiveIndentGuidesStroke": "#ff0000",
 		// "tree.indentGuidesStroke": "#ff0000",
 		// "tree.tableColumnsBorder": "#ff0000",
 		// "tree.tableOddRowsBackground": "#ff0000",
-		// "widget.border": "#ff0000",
-		// "widget.shadow": "#ff0000",
+
 		// "window.activeBorder": "#ff0000",
 		// "window.inactiveBorder": "#ff0000",
+		/* 基本颜色 */
+		"foreground": "#fff", //整体前景色。此颜色仅在不被组件覆盖时适用
+		"focusBorder": "#6495ED", //焦点元素的整体边框颜色。此颜色仅在不被其他组件覆盖时适用
+		"disabledForeground": "#D3D3D390", //禁用状态下的前景色。此颜色仅在不被组件覆盖时适用
+		"widget.border": "#6495ED80",
+		"widget.shadow": "#6495ED80", //编辑器内小组件（如查找/替换）的阴影颜色
+		"selection.background": "#F5F5F540", //工作台所选文本的背景颜色（例如输入字段或文本区域）。注意，本设置不适用于编辑器
+		"descriptionForeground": "#C0C0C0", //提供其他信息的说明文本的前景色，例如标签文本
+		"errorForeground": "#DC143C", //错误信息的全局前景色。此颜色仅在不被组件覆盖时适用
+		"icon.foreground": "#fff", // 工作台中图标的默认颜色。
+		"sash.hoverBorder": "#87CEFA80", //可调整大小的边框的颜色
+		/* 文本颜色 */
+		"textBlockQuote.background": "#0005", //块引用文本的背景颜色。
+		"textBlockQuote.border": "#fff3", //块引用文本的边框颜色。
+		"textCodeBlock.background": "#0005", //代码块文本的背景颜色。
+		"textLink.activeForeground": "#00BFFF", //活动文本链接的前景色。
+		"textLink.foreground": "#87CEFA", //文本链接的前景色。
+		"textPreformat.foreground": "#87CEFA80", //预格式文本段落的前景色。
+		"textPreformat.background": "#f0f", //预格式文本段落的背景颜色。 无影响
+		"textSeparator.foreground": "#f0f", //文本分隔符的颜色。
 
 		/* 窗口 */
 		"titleBar.activeBackground": "#303841", //标题栏背景颜色（活动）
@@ -740,7 +727,6 @@
 		"titleBar.border": "#303841", //标题栏边框颜色
 		"titleBar.inactiveBackground": "#30384150", //标题栏背景颜色（非活动）
 		"titleBar.inactiveForeground": "#f3f9fb50", //标题栏字体颜色（非活动）
-		"foreground": "#f3f9fb", //编辑器默认字体颜色
 		/* 操作栏 */
 		"actionBar.toggledBackground": "#4682B460", // 操作栏选中项的背景颜色
 		"activityBar.activeBackground": "#4682B460", // 操作栏选中项的背景颜色
@@ -753,6 +739,9 @@
 		"activityBar.inactiveForeground": "#808080", //操作栏图标颜色（未选中）
 		"activityBarBadge.foreground": "#D3D3D3", // 通知点的字体颜色
 		"activityBarBadge.background": "#007acc", //活动栏图标上的角标背景颜色
+		"toolbar.activeBackground": "#4682B4", //工具栏激活时的背景颜色。
+		"toolbar.hoverBackground": "#4682B4", //工具栏悬停时的背景颜色。
+		"toolbar.hoverOutline": "#4682B4", //工具栏悬停时的边框颜色。
 		/* 侧边栏 */
 		"sideBarTitle.foreground": "#bbbbbb", //侧边栏顶部字体颜色
 		"sideBarSectionHeader.background": "#263238", //侧边栏标题背景颜色
@@ -765,11 +754,40 @@
 		"button.background": "#4682B4", // 按钮背景颜色
 		"button.foreground": "#F0FFFF", // 按钮字体颜色
 		"button.hoverBackground": "#4169E1", // 按钮hover背景颜色
-		"button.border": "#4682B4", // 按钮边框颜色
+		"button.border": "#6495ED80", // 按钮边框颜色
 		"button.separator": "#dfdfdf", // 按钮分隔符颜色
-		"button.secondaryBackground": "#ff0000",
-		"button.secondaryForeground": "#ff0000",
-		"button.secondaryHoverBackground": "#ff0000",
+		/* 辅助按钮 如命令调色板 拓展中返回顶部 */
+		"button.secondaryBackground": "#4682B4", // 辅助按钮背景颜色
+		"button.secondaryForeground": "#F0FFFF", // 辅助按钮字体颜色
+		"button.secondaryHoverBackground": "#4169E1", // 辅助按钮hover背景颜色
+		"checkbox.selectBackground": "#505050", //复选框小部件在选中其所在元素时的背景颜色
+		"checkbox.selectBorder": "#4169E1", //选中复选框小组件所在的元素时，复选框小组件的边框颜色。
+		"checkbox.background": "#505050", //复选框小部件的背景颜色。
+		"checkbox.border": "#505050", //复选框小部件的边框颜色。
+		"checkbox.foreground": "#f3f9fb", //复选框小部件的字体色
+		/* 下拉列表 */
+		"dropdown.background": "#505050", //下拉列表控件的背景颜色
+		"dropdown.border": "#505050", //下拉列表控件的边框颜色
+		"dropdown.foreground": "#f3f9fb", //下拉列表控件的字体色
+		"dropdown.listBackground": "#505050", //下拉列表控件的列表背景颜色
+		/* 输入框 */
+		"input.background": "#505050", //输入框背景颜色
+		"input.border": "#505050", //输入框边框颜色
+		"input.foreground": "#f3f9fb", //输入框字体颜色
+		"input.placeholderForeground": "#f3f9fb70", //输入框提示字体颜色
+		"inputOption.activeBackground": "#4169E1", //输入框选项悬停背景颜色
+		"inputOption.activeBorder": "#4169E1", //输入框选项悬停边框颜色
+		"inputOption.activeForeground": "#f3f9fb", //输入框选项悬停字体颜色
+		"inputOption.hoverBackground": "#4169E1", //输入框选项悬停背景颜色
+		"inputValidation.errorBackground": "#8B0000", //输入框错误提示背景颜色
+		"inputValidation.errorBorder": "#8B0000", //输入框错误提示边框颜色
+		"inputValidation.errorForeground": "#f3f9fb", //输入框错误提示字体颜色
+		"inputValidation.infoBackground": "#A9A9A9", //输入框信息提示背景颜色
+		"inputValidation.infoBorder": "#A9A9A9", //输入框信息提示边框颜色
+		"inputValidation.infoForeground": "#f3f9fb", //输入框信息提示字体颜色
+		"inputValidation.warningBackground": "#F4A460", //输入框警告提示背景颜色
+		"inputValidation.warningBorder": "#F4A460", //输入框警告提示边框颜色
+		"inputValidation.warningForeground": "#f3f9fb", //输入框警告提示字体颜色
 		/* 编辑区 */
 		"editor.background": "#303841", // 编辑区背景颜色
 		"editor.foreground": "#f3f9fb", // 编辑区默认字体颜色
@@ -791,12 +809,22 @@
 		"breadcrumb.focusForeground": "#f3f9fb80", // 鼠标挪到导航路径上时的字体颜色
 		"breadcrumb.activeSelectionForeground": "#f3f9fb", //当前点击的导航路径项的字体颜色
 		"breadcrumbPicker.background": "#303841", // 点击导航路径后弹窗的背景颜色
-
 		/* 小型提示 */
 		"badge.background": "#FFF5EE50", // 小型提示背景颜色
-		"badge.foreground": "#F5F5F590", // 小型提示字体颜色
+		"badge.foreground": "#f3f9fb", // 小型提示字体颜色
+		/* 进度条 */
+		"progressBar.background": "#4169E1", //进度条背景颜色
 
-		// /* 图表 */
+		/* 文本颜色 */
+		/// 文本文档中的颜色，比如欢迎页
+		// "textBlockQuote.background": "#FFFFFF", //"文本中块引用的背景颜色
+		// "textBlockQuote.border": "#FFFFFF", //文本中"块引用的边框颜色
+		// "textCodeBlock.background": "#FFFFFF", //文本中代码块"的背景颜色
+		// "textLink.activeForeground": "#FFFFFF", //鼠标点击后或"悬停时链接的前景色
+		// "textLink.foreground": "#FFFFFF", //文本中链接的前景色
+		// "textPreformat.foreground": "#FFFFFF", //预格式化文本段的前景色
+		// "textSeparator.foreground": "#FFFFFF", //文字分隔符的颜色
+		/* 图表 */
 		// "charts.blue": "#ff0000",
 		// "charts.foreground": "#ff0000",
 		// "charts.green": "#ff0000",
@@ -830,17 +858,16 @@
 		"chat.requestBorder": "#0000CD20", //机器人头像的边框颜色
 		"chat.slashCommandBackground": "#0000", //聊天命令的背景颜色
 		"chat.slashCommandForeground": "#00BFFF80", //聊天命令的字体颜色
+		/* 滚动条 */
+		"scrollbar.shadow": "#6495ED40", //视图滚动后，滚动条的阴影
+		"scrollbarSlider.activeBackground": "#6495ED", //滚动条滑块的背景颜色（点击状态）
+		"scrollbarSlider.background": "#6495ED80", //滚动条滑块的背景颜色
+		"scrollbarSlider.hoverBackground": "#6495ED", //滚动条滑块的背景颜色（悬停状态）
 
 		/* 未确定具体内容 */
-		"banner.background": "#ff0000",
-		"banner.foreground": "#ff0000",
-		"banner.iconForeground": "#ff0000",
-
-		"checkbox.selectBackground": "#ff0000",
-		"checkbox.selectBorder": "#ff0000",
-		"checkbox.background": "#ff0000",
-		"checkbox.border": "#ff0000",
-		"checkbox.foreground": "#ff0000",
+		// "banner.background": "#ff0000",
+		// "banner.foreground": "#ff0000",
+		// "banner.iconForeground": "#ff0000",
 
 		"welcomePage.background": "#ff0000",
 		"welcomePage.progress.background": "#ff0000",
@@ -848,8 +875,102 @@
 		"welcomePage.tileBackground": "#ff0000",
 		"welcomePage.tileBorder": "#ff0000",
 		"welcomePage.tileHoverBackground": "#ff0000"
-	}
+	},
 	/* 代码的颜色 */
+	"tokenColors": [],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {},
+	"editor.semanticHighlighting.enabled": true,
+	"editor.semanticTokenColorCustomizations": {
+		"enabled": true,
+		"rules": {
+			"comment": {
+				"foreground": "#546E7A",
+				"fontStyle": "italic"
+			},
+			"keyword": {
+				"foreground": "#C792EA"
+			},
+			"number": {
+				"foreground": "#F78C6C"
+			},
+			"regexp": {
+				"foreground": "#89DDFF"
+			},
+			"operator": {
+				"foreground": "#89DDFF"
+			},
+			"namespace": {
+				"foreground": "#89DDFF"
+			},
+			"type": {
+				"foreground": "#89DDFF"
+			},
+			"struct": {
+				"foreground": "#89DDFF"
+			},
+			"class": {
+				"foreground": "#89DDFF"
+			},
+			"interface": {
+				"foreground": "#89DDFF"
+			},
+			"enumMember": {
+				"foreground": "#89DDFF"
+			},
+			"typeParameter": {
+				"foreground": "#89DDFF"
+			},
+			"function": {
+				"foreground": "#82AAFF"
+			},
+			"method": {
+				"foreground": "#82AAFF"
+			},
+			"macro": {
+				"foreground": "#82AAFF"
+			},
+			"variable": {
+				"foreground": "#EEFFFF"
+			},
+			"parameter": {
+				"foreground": "#EEFFFF"
+			},
+			"property": {
+				"foreground": "#EEFFFF"
+			},
+			"label": {
+				"foreground": "#EEFFFF"
+			},
+			"enum": {
+				"foreground": "#EEFFFF"
+			},
+			"event": {
+				"foreground": "#EEFFFF"
+			},
+			"string": {
+				"foreground": "#C3E88D"
+			},
+			"attribute": {
+				"foreground": "#C3E88D"
+			},
+			"modifier": {
+				"foreground": "#C3E88D"
+			},
+			"punctuation": {
+				"foreground": "#89DDFF"
+			},
+			"plain": {
+				"foreground": "#EEFFFF"
+			},
+			"tag": {
+				"foreground": "#f07178"
+			},
+			"delimiter": {
+				"foreground": "#f07178"
+			}
+		}
+	}
 	// "tokenColors": [
 	// 	{
 	// 		"name": "Comment",

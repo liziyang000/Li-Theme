@@ -1,0 +1,299 @@
+{
+	// 覆盖当前主题
+	"workbench.colorCustomizations": {
+		// 影响编辑器的颜色
+		//// 对比色
+		// "contrastActiveBorder": "#ddda", //活动元素周围有额外的边框，可将它们与其他元素分开，以获得更大的对比度。
+		// "contrastBorder": "#ddda" ,//元素周围有额外的边框，将它们与其他元素分开，以获得更大的对比度。
+		//// 基本颜色
+		// "focusBorder": "#ddda", //聚焦元素的整体边框颜色。仅当未被组件覆盖时，才会使用此颜色。
+		// "foreground": "#ddda", //整体前景色。仅当未被组件覆盖时，才会使用此颜色。
+		// "disabledForeground": "#ddda", //禁用元素的整体前景。仅当未被组件覆盖时，才会使用此颜色。
+		// "widget.border": "#ddda", //编辑器中查找/替换等小部件的边框颜色。
+		// "widget.shadow": "#ddda", //编辑器中查找/替换等小部件的阴影颜色。
+		// "selection.background": "#ddda", //工作台中文本选择的背景颜色（对于输入字段或文本区域，不适用于编辑器和终端中的选择）。
+		// "descriptionForeground": "#ddda", //描述文本的前景色，提供附加信息，例如标签。
+		// "errorForeground": "#ddda", //错误消息的整体前景色（仅当未被组件覆盖时才使用此颜色）。
+		// "icon.foreground": "#ddda", //工作台中图标的默认颜色。
+		// "sash.hoverBorder": "#ddda" //可拖动窗扇的悬停边框颜色。
+		//// 文本颜色
+		///文本文档（如欢迎页面）中的颜色。
+		// "textBlockQuote.background": "#ddda", //文本中块引号的背景颜色。
+		// "textBlockQuote.border": "#ddda", //文本中块引号的边框颜色。
+		// "textCodeBlock.background": "#ddda", //文本中代码块的背景颜色。
+		// "textLink.activeForeground": "#ddda", //单击鼠标悬停时文本中链接的前景色。
+		// "textLink.foreground": "#ddda", //文本中链接的前景色。
+		// "textPreformat.foreground": "#ddda", //预格式化文本段的前景色。
+		// "textPreformat.background": "#ddda", //预先格式化的文本段的背景颜色。
+		// "textSeparator.foreground": "#ddda", //文本分隔符的颜色。
+		//// 动作颜色
+		/// 一组颜色，用于控制与整个工作台中的操作的交互。
+		// "toolbar.hoverBackground": "#ddda", //使用鼠标将鼠标悬停在操作上时的工具栏背景
+		// "toolbar.hoverOutline": "#ddda", //使用鼠标将鼠标悬停在操作上时工具栏轮廓
+		// "toolbar.activeBackground": "#ddda", //将鼠标悬停在操作上时的工具栏背景
+		//// 按钮控制
+		/// 按钮小组件的一组颜色，例如新窗口资源管理器中的“打开文件夹”按钮。
+		// "button.background":"#ddaa",//按钮背景颜色。
+		// "button.foreground":"#ddaa",//按钮前景色。
+		// "button.border":"#ddaa",//按钮边框颜色。
+		// "button.separator":"#ddaa",//按钮分隔符颜色。
+		// "button.hoverBackground":"#ddaa",//悬停时的按钮背景颜色。
+		// "button.secondaryForeground":"#ddaa",//辅助按钮前景色。
+		// "button.secondaryBackground":"#ddaa",//辅助按钮背景色。
+		// "button.secondaryHoverBackground":"#ddaa",//悬停时的辅助按钮背景颜色。
+		// "checkbox.background":"#ddaa",//复选框小部件的背景颜色。
+		// "checkbox.foreground":"#ddaa",//复选框小部件的前景色。
+		// "checkbox.border":"#ddaa",//复选框小部件的边框颜色。
+		// "checkbox.selectBackground":"#ddaa",//选中复选框小部件所在的元素时其背景颜色。
+		// "checkbox.selectBorder":"#ddaa",//复选框构件所在的元素被选中时的边框颜色。
+		//// 下拉列表控件
+		/// 所有下拉列表小部件的一组颜色，例如在“集成终端”或“输出”面板中。请注意， 目前在 macOS 上未使用下拉列表控件。
+		// "dropdown.background":"#ddda",//下拉背景。
+		// "dropdown.listBackground":"#ddda",//下拉列表背景。
+		// "dropdown.border":"#ddda",//下拉边框。
+		// "dropdown.foreground":"#ddda",//下拉前景。
+		//// 输入控制
+		/// 输入控件的颜色，例如在“搜索”视图或“查找/替换”对话框中。
+		// "input.background":"#ddda",//输入框背景。
+		// "input.border":"#ddda",//输入框边框。
+		// "input.foreground":"#ddda",//输入框前景。
+		// "input.placeholderForeground":"#ddda",//占位符文本的输入框前景色。
+		// "inputOption.activeBackground":"#ddda",//输入字段中已激活选项的背景颜色。
+		// "inputOption.activeBorder":"#ddda",//输入字段中已激活选项的边框颜色。
+		// "inputOption.activeForeground":"#ddda",//输入字段中已激活选项的前景色。
+		// "inputOption.hoverBackground":"#ddda",//输入字段中已激活选项的背景颜色。
+		// "inputValidation.errorBackground":"#ddda",//输入错误严重性的验证背景颜色。
+		// "inputValidation.errorForeground":"#ddda",//输入错误严重性的验证前景色。
+		// "inputValidation.errorBorder":"#ddda",//输入错误严重性的验证边框颜色。
+		// "inputValidation.infoBackground":"#ddda",//输入信息严重性的验证背景颜色。
+		// "inputValidation.infoForeground":"#ddda",//输入信息严重性的验证前景色。
+		// "inputValidation.infoBorder":"#ddda",//输入信息严重性的验证边框颜色。
+		// "inputValidation.warningBackground":"#ddda",//输入信息警告的验证背景颜色。
+		// "inputValidation.warningForeground":"#ddda",//输入警告严重性的验证前景色。
+		// "inputValidation.warningBorder":"#ddda",//输入警告严重性的验证边框颜色。
+		//// 滚动条控件
+		// "scrollbar.shadow":"#ddda",//滚动条滑块阴影，指示视图已滚动。
+		// "scrollbarSlider.activeBackground":"#ddda",//单击时滚动条滑块背景颜色。
+		// "scrollbarSlider.background":"#ddda",//滚动条滑块背景颜色。
+		// "scrollbarSlider.hoverBackground":"#ddda",//悬停时滚动条滑块背景颜色。
+		//// 徽章
+		/// 徽章是小信息标签，例如，搜索结果计数。
+		// "badge.foreground":"#ddda",//徽章前景色。
+		// "badge.background":"#ddda",//徽章背景颜色。
+		//// 进度条
+		// progressBar.background":"#ddda",//为长时间运行的操作显示的进度条的背景色。
+		//// 列表和树
+		/// 列表和树的颜色，如文件资源管理器。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.activeSelectionBackground":"#ddda",//列表/树处于活动状态时所选项目的列表/树背景颜色。
+		// "list.activeSelectionForeground":"#ddda",//列表/树处于活动状态时所选项目的列表/树前景色。
+		// "list.activeSelectionIconForeground":"#ddda",//列表/树处于活动状态时所选项目的列表/树图标前景色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.dropBackground":"#ddda",//使用鼠标移动项目时列表/树拖放背景。
+		// "list.focusBackground":"#ddda",//当列表/树处于活动状态时，焦点项目的列表/树背景颜色。
+		// "list.focusForeground":"#ddda",//当列表/树处于活动状态时，焦点项的列表/树前景色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// list.focusHighlightForeground":"#ddda",//在列表/树内搜索时，匹配项的列表/树前景色突出显示在主动聚焦的项目上。
+		// "list.focusOutline":"#ddda",//当列表/树处于活动状态时，焦点项目的列表/树轮廓颜色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.focusAndSelectionOutline":"#ddda",//当列表/树处于活动状态并处于选中状态时，焦点项目的列表/树轮廓颜色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.highlightForeground":"#ddda",//在列表/树内搜索时，匹配项的前景色突出显示。
+		// "list.hoverBackground":"#ddda",//使用鼠标将鼠标悬停在项目上时的列表/树背景。
+		// "list.hoverForeground":"#ddda",//使用鼠标将鼠标悬停在项目上时，列表/树前景。
+		// "list.inactiveSelectionBackground":"#ddda",//当列表/树处于非活动状态时，所选项目的列表/树背景颜色。
+		// "list.inactiveSelectionForeground":"#ddda",//当列表/树处于非活动状态时，所选项目的列表/树前景色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.inactiveSelectionIconForeground":"#ddda",//列表/树处于非活动状态时所选项目的列表/树图标前景色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.inactiveFocusBackground":"#ddda",//当列表处于非活动状态时，焦点项目的背景颜色。活动列表具有键盘焦点，非活动列表则没有。目前仅在列表中受支持。
+		// "list.inactiveFocusOutline":"#ddda",//当列表/树处于非活动状态时，焦点项目的列表/树轮廓颜色。活动列表/树具有键盘焦点，非活动列表/树则没有。
+		// "list.invalidItemForeground":"#ddda",//无效项的列表/树前景色，例如资源管理器中未解析的根。
+		// "list.errorForeground":"#ddda",//包含错误的列表项的前景色。
+		// "list.warningForeground":"#ddda",//包含警告的列表项的前景色。
+		// "listFilterWidget.background":"#ddda",//列表/树 在列表/树内搜索时过滤键入文本的背景颜色。
+		// "listFilterWidget.outline":"#ddda",//在列表/树内搜索时，列表/树过滤器小部件键入文本的轮廓颜色。
+		// "listFilterWidget.noMatchesOutline":"#ddda",//在列表/树内搜索时，当找不到键入的文本匹配项时，列表/树过滤器小部件的轮廓颜色。
+		// "listFilterWidget.shadow":"#ddda",//列表和树中类型过滤器小部件的阴影颜色。
+		// "list.filterMatchBackground":"#ddda",//列表和树中筛选匹配项的背景颜色。
+		// "list.filterMatchBorder":"#ddda",//列表和树中筛选匹配项的边框颜色。
+		// "list.deemphasizedForeground":"#ddda",//取消强调的项目的列表/树前景色。
+		// "tree.indentGuidesStroke":"#ddda",//Tree Widget 缩进参考线的描边颜色。
+		// "tree.inactiveIndentGuidesStroke":"#ddda",//未处于活动状态的缩进参考线的树描边颜色。
+		// "tree.tableColumnsBorder":"#ddda",//缩进参考线的树描边颜色。
+		// "tree.tableOddRowsBackground":"#ddda",//奇数表行的背景色。
+		//// 活动栏
+		/// 活动栏显示在工作台的最左侧或最右侧，并允许在侧栏视图之间快速切换。
+		// "activityBar.background":"#ddda",//活动栏背景颜色。
+		// "activityBar.dropBorder":"#ddda",//拖放活动栏项的反馈颜色。活动栏显示在最左侧或最右侧，并允许在侧栏的视图之间切换。
+		// "activityBar.foreground":"#ddda",//活动栏前景色（例如用于图标）。
+		// "activityBar.inactiveForeground":"#ddda",//活动栏项目处于非活动状态时的前景色。
+		// "activityBar.border":"#ddda",//带有侧边栏的活动栏边框颜色。
+		// "activityBarBadge.background":"#ddda",//活动通知徽章背景颜色。
+		// "activityBarBadge.foreground":"#ddda",//活动通知徽章前景色。
+		// "activityBar.activeBorder":"#ddda",//活动栏活动指示器边框颜色。
+		// "activityBar.activeBackground":"#ddda",//活动元素的活动栏可选背景颜色。
+		// "activityBar.activeFocusBorder":"#ddda",//活动项的活动栏焦点边框颜色。
+		//// 配置文件
+		// "profileBadge.background":"#ddda",//个人资料徽章背景颜色。个人资料徽章显示在活动栏中设置齿轮图标的顶部。
+		// "profileBadge.foreground":"#ddda",//个人资料徽章前景色。个人资料徽章显示在活动栏中设置齿轮图标的顶部。
+		//// 侧边栏
+		/// 侧边栏包含“资源管理器”和“搜索”等视图。
+		// "sideBar.background": "#ddda", //侧边栏背景颜色。
+		// "sideBar.foreground": "#ddda", //侧边栏前景色。侧边栏是资源管理器和搜索等视图的容器。
+		// "sideBar.border": "#ddda", //分隔编辑器的一侧的侧边栏边框颜色。
+		// "sideBar.dropBackground": "#ddda", //拖放侧边栏部分的反馈颜色。颜色应具有透明度，以便侧边栏部分仍然可以发光。
+		// "sideBarTitle.foreground": "#ddda", //侧边栏标题前景色。
+		// "sideBarSectionHeader.background": "#ddda", //侧边栏部分标题背景颜色。
+		// "sideBarSectionHeader.foreground": "#ddda", //侧边栏部分标题前景色。
+		// "sideBarSectionHeader.border": "#ddda", //侧边栏部分标题边框颜色。
+		//// 小地图
+		/// 小地图显示当前文件的缩小版本。
+		// "minimap.findMatchHighlight:"#ddda",//突出显示文件中搜索的匹配项的颜色。
+		// "minimap.selectionHighlight:"#ddda",//突出显示编辑器选择的颜色。
+		// "minimap.errorHighlight:"#ddda",//突出显示编辑器中错误的颜色。
+		// "minimap.warningHighlight:"#ddda",//在编辑器中突出显示警告的颜色。
+		// "minimap.background:"#ddda",//小地图背景颜色。
+		// "minimap.selectionOccurrenceHighlight:"#ddda",//用于重复编辑器选择的小地图标记颜色。
+		// "minimap.foregroundOpacity:"#ddda",//小地图中渲染的前景元素的不透明度。例如，“#000000c0”将以 75% 的不透明度呈现元素。
+		// "minimap.infoHighlight:"#ddda",//信息的小地图标记颜色。
+		// "minimapSlider.background:"#ddda",//小地图滑块背景颜色。
+		// "minimapSlider.hoverBackground:"#ddda",//悬停时的小地图滑块背景颜色。
+		// "minimapSlider.activeBackground:"#ddda",//单击时的小地图滑块背景颜色。
+		// "minimapGutter.addedBackground:"#ddda",//用于添加内容的小地图装订线颜色。
+		// "minimapGutter.modifiedBackground:"#ddda",//修改内容的小地图装订线颜色。
+		// "minimapGutter.deletedBackground:"#ddda",//已删除内容的小地图装订线颜色。
+		//// 编辑器组和选项卡
+		/// 编辑器组是编辑器的容器。可以有多个编辑组。Tab 是编辑器的容器。可以在一个编辑器组中打开多个选项卡。
+		// "editorGroup.border": "#ddda", //颜色以将多个编辑器组彼此分开。
+		// "editorGroup.dropBackground": "#ddda", //拖动编辑器时的背景颜色。
+		// "editorGroupHeader.noTabsBackground": "#ddda", //禁用制表符时编辑器组标题的背景颜色（设置）。
+		// "editorGroupHeader.tabsBackground": "#ddda", //选项卡容器的背景色。
+		// "editorGroupHeader.tabsBorder": "#ddda", //编辑器选项卡下方的边框颜色控制何时启用选项卡。
+		// "editorGroupHeader.border": "#ddda", //编辑器组标题和编辑器之间的边框颜色（如果启用，则位于痕迹导航下方）。
+		// "editorGroup.emptyBackground": "#ddda", //空编辑器组的背景色。
+		// "editorGroup.focusedEmptyBorder": "#ddda", //聚焦的空编辑器组的边框颜色。
+		// "editorGroup.dropIntoPromptForeground": "#ddda", //拖动文件时在编辑器上显示的文本的前景色。此文本通知用户可以按住 shift 键进入编辑器。
+		// "editorGroup.dropIntoPromptBackground": "#ddda", //拖动文件时在编辑器上显示的文本的背景颜色。此文本通知用户可以按住 shift 键进入编辑器。
+		// "editorGroup.dropIntoPromptBorder": "#ddda", //拖动文件时在编辑器上显示的文本的边框颜色。此文本通知用户可以按住 shift 键进入编辑器。
+		// "tab.activeBackground": "#ddda", //活动组中的活动选项卡背景颜色。
+		// "tab.unfocusedActiveBackground": "#ddda", //非活动编辑器组中的活动选项卡背景颜色。
+		// "tab.activeForeground": "#ddda", //活动组中的活动选项卡前景色。
+		// "tab.border": "#ddda", //边框以将选项卡彼此分开。
+		// "tab.activeBorder": "#ddda", //活动选项卡的下边框。
+		// "tab.unfocusedActiveBorder": "#ddda", //非活动编辑器组中活动选项卡的下边框。
+		// "tab.activeBorderTop": "#ddda", //活动选项卡的上边框。
+		// "tab.unfocusedActiveBorderTop": "#ddda", //非活动编辑器组中活动选项卡的上边框
+		// "tab.lastPinnedBorder": "#ddda", //最后一个固定编辑器右侧的边框，用于与未固定的编辑器分开。
+		// "tab.inactiveBackground": "#ddda", //非活动选项卡背景颜色。
+		// "tab.unfocusedInactiveBackground": "#ddda", //未聚焦组中的非活动选项卡背景颜色
+		// "tab.inactiveForeground": "#ddda", //活动组中的非活动选项卡前景色。
+		// "tab.unfocusedActiveForeground": "#ddda", //非活动编辑器组中的活动选项卡前景色。
+		// "tab.unfocusedInactiveForeground": "#ddda", //非活动编辑器组中的非活动选项卡前景色。
+		// "tab.hoverBackground": "#ddda", //悬停时的选项卡背景颜色
+		// "tab.unfocusedHoverBackground": "#ddda", //悬停时未聚焦组中的选项卡背景颜色
+		// "tab.hoverForeground": "#ddda", //悬停时的选项卡前景色
+		// "tab.unfocusedHoverForeground": "#ddda", //悬停时未聚焦组中的选项卡前景色
+		// "tab.hoverBorder": "#ddda", //悬停时突出显示选项卡的边框
+		// "tab.unfocusedHoverBorder": "#ddda", //悬停时边框以突出显示未聚焦组中的选项卡
+		// "tab.activeModifiedBorder": "#ddda", //活动组中已修改（脏）活动选项卡顶部的边框。
+		// "tab.inactiveModifiedBorder": "#ddda", //活动组中已修改（脏）非活动选项卡顶部的边框。
+		// "tab.unfocusedActiveModifiedBorder": "#ddda", //未聚焦组中已修改（脏）活动选项卡顶部的边框。
+		// "tab.unfocusedInactiveModifiedBorder": "#ddda", //未聚焦组中已修改（脏）非活动选项卡顶部的边框。
+		// "editorPane.background": "#ddda", //编辑器窗格的背景色，在居中的编辑器布局的左侧和右侧可见。
+		// "sideBySideEditor.horizontalBorder": "#ddda", //在编辑器组中从上到下并排显示时，将两个编辑器彼此分开的颜色。
+		// "sideBySideEditor.verticalBorder": "#ddda", //在编辑器组中从左到右并排显示时，用于将两个编辑器彼此分开的颜色
+		//
+		//
+		// "editorBracketHighlight.foreground1": "#00aeff",
+		// "editorBracketHighlight.foreground2": "#da70d6",
+		// "editorBracketHighlight.foreground3": "#ffcc99",
+		// "editorBracketHighlight.foreground4": "#a8b567",
+		// "editorBracketHighlight.foreground5": "#ff8c66",
+		// "editorBracketHighlight.foreground6": "#8ed3b1",
+		// "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+		// "editor.background": "#1f1f1f", // 编辑器背景颜色
+		// "editor.foreground": "#eeeeee", // 编辑器默认前景色
+		// "editor.lineHighlightBackground": "#2a2a2a", // 当前行高亮背景颜色
+		// "editorLineNumber.foreground": "#444444", // 行号颜色
+		// "editorLineNumber.activeForeground": "#cccccc", // 活动行号颜色
+		// "editorIndentGuide.background1": "#4e4e4e", // 缩进参考线颜色
+		// "editorIndentGuide.background2": "#4e4e4e", // 缩进参考线颜色
+		// "editorIndentGuide.background3": "#4e4e4e", // 缩进参考线颜色
+		// "editorIndentGuide.background4": "#4e4e4e", // 缩进参考线颜色
+		// "editorIndentGuide.background5": "#4e4e4e", // 缩进参考线颜色
+		// "editorIndentGuide.background6": "#4e4e4e", // 缩进参考线颜色
+		// "editorRuler.foreground": "#444444", // 行规颜色
+		// "editorCodeLens.foreground": "#999999", // 代码镜头前景色
+		// "editorBracketMatch.background": "#00640050", // 匹配括号背景色
+		// "editorBracketMatch.border": "#ffffff50", // 匹配括号边框颜色
+		// "editorOverviewRuler.border": "#1e1e1e", // 编辑器概览标尺边框颜色
+		// "editorOverviewRuler.findMatchForeground": "#d4d4d4", // 查找匹配项标尺颜色
+		// "editorOverviewRuler.rangeHighlightForeground": "#007acc", // 范围高亮标尺颜色
+		// "editorError.foreground": "#ff3333", // 错误提示颜色
+		// "editorWarning.foreground": "#ffcc66", // 警告提示颜色
+		// "editorInfo.foreground": "#33ccff" // 信息提示颜色
+	},
+	"editor.tokenColorCustomizations": {
+		"[Default Dark+]": {
+			// “comments”:注释颜色
+			// “functions”:函数/方法定义与引用颜色
+			// “keywords”:关键字颜色，如new, if, else, try等
+			// “numbers”:数字的颜色
+			// “strings”:字符串的颜色
+			// “types”:类型定义与引用的颜色
+			// “variables”:变量的颜色
+			// “textMateRules”:其他具体的颜色设置
+			"comments": "#5c6370",
+			"functions": "#82AAFF",
+			"keywords": "#c792ea",
+			"numbers": "#F78C6C",
+			"strings": "#ecc48d",
+			"types": "#7fdbca",
+			"variables": "#82AAFF",
+			"textMateRules": [
+				{
+					"scope": "keyword.control", //if ,else, try 等控制符
+					"settings": {
+						"foreground": "#C586C0"
+					}
+				},
+				{
+					"scope": "keyword.operator", //算数符
+					"settings": {
+						"foreground": "#f07d3b"
+					}
+				},
+				{
+					"scope": "storage.modifier", //修饰语
+					"settings": {
+						"foreground": "#f09090"
+					}
+				},
+				{
+					"scope": "entity.name.type.class", //类名
+					"settings": {
+						"foreground": "#c0526a"
+					}
+				},
+				{
+					"scope": "storage.type.primitive.java", //int和其他啥啥，忘记了
+					"settings": {
+						"foreground": "#c0526a"
+					}
+				},
+				{
+					"scope": "entity.name.type.interface", //接口
+					"settings": {
+						"foreground": "#c0526a"
+					}
+				},
+				{
+					"scope": "entity.name.namespace", //导入部分
+					"settings": {
+						"foreground": "#74817c"
+					}
+				},
+				{
+					"scope": "entity.name.tag", //html标签
+					"settings": {
+						"foreground": "#d35c5c"
+					}
+				}
+			]
+		}
+	}
+}
