@@ -811,18 +811,19 @@
 		"diffEditor.border": "#303841", //差异编辑器左右边框颜色
 		"diffEditor.diagonalFill": "#FAEBD730", //差异编辑器对角线填充颜色
 		"diffEditor.insertedLineBackground": "#00640020", //差异编辑器插入行背景颜色
-		"diffEditor.insertedTextBackground": "#00640050", //差异编辑器插入行背景颜色
-		"diffEditor.insertedTextBorder": "#ff0000",
-		// "diffEditor.move.border": "#ff0000",
-		// "diffEditor.moveActive.border": "#ff0000",
-		// "diffEditor.removedLineBackground": "#ff0000",
-		// "diffEditor.removedTextBackground": "#ff0000",
-		// "diffEditor.removedTextBorder": "#ff0000",
-		// "diffEditor.unchangedCodeBackground": "#ff0000",//差异编辑器未修改区域背景颜色
+		"diffEditor.insertedTextBackground": "#00640070", //差异编辑器插入文字背景颜色
+		"diffEditor.insertedTextBorder": "#00640070", //差异编辑器插入文字边框颜色
+		"diffEditorGutter.insertedLineBackground": "#00640070", //差异编辑器左侧插入行背景颜色
+		"diffEditor.removedLineBackground": "#80000020", //差异编辑器删除行背景颜色
+		"diffEditor.removedTextBackground": "#80000070", //差异编辑器删除文字背景颜色
+		"diffEditor.removedTextBorder": "#80000070", //差异编辑器删除文字边框颜色
+		"diffEditorGutter.removedLineBackground": "#80000070", //差异编辑器左侧删除行背景颜色
+
+		// "diffEditor.move.border": "#ff0000", //差异编辑器移动边框颜色
+		// "diffEditor.moveActive.border": "#ff0000", //差异编辑器移动边框颜色
+		// "diffEditor.unchangedCodeBackground": "#f3f9fb", //差异编辑器未修改区域背景颜色
 		// "diffEditor.unchangedRegionBackground": "#708090", //差异编辑器未修改区域背景颜色
-		// "diffEditor.unchangedRegionForeground": "#ff0000", //差异编辑器未修改区域字体颜色
-		// "diffEditorGutter.insertedLineBackground": "#ff0000", //差异编辑器左侧插入行背景颜色
-		// "diffEditorGutter.removedLineBackground": "#ff0000", //差异编辑器左侧删除行背景颜色
+		// "diffEditor.unchangedRegionForeground": "#ff000020", //差异编辑器未修改区域字体颜色
 		// "diffEditorOverview.insertedForeground": "#ff0000", //差异编辑器概览插入行颜色
 		// "diffEditorOverview.removedForeground": "#ff0000", //差异编辑器概览删除行颜色
 		/* 横幅 */
